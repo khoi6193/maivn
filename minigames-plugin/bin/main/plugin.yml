@@ -1,0 +1,17 @@
+name: Minigames
+version: 1.0
+author: MasterClaus
+main: net.minevn.minigames.Minigames
+api-version: 1.17
+softdepend:
+  - CommandAPI
+  - PlayerPoints
+depend:
+  - MatchMakerClient
+  - ProtocolLib
+  - PlaceholderAPI
+commands:
+  loa:
+    aliases:
+      - world
+      - loatg

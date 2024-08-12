@@ -1,0 +1,43 @@
+name: Minigames
+version: 1.0
+author: MasterClaus
+main: net.minevn.minigames.Minigames
+api-version: 1.19
+softdepend:
+  - CommandAPI
+  - PlayerPoints
+  - MineStrike
+  - VillageDefense
+  - MurderMystery
+  - BuildBattle
+  - WoolWars
+  - BedWars1058
+  - TheLab
+  - GadgetsMenu
+  - ccRides
+depend:
+  - MatchMakerClient
+  - ProtocolLib
+  - PlaceholderAPI
+  - kotlin-stdlib
+  - NBTAPI
+commands:
+  quest:
+    description: Danh sách nhiệm vụ
+    aliases:
+      - quests
+      - nhiemvu
+  loa:
+    aliases:
+      - world
+      - loatg
+  drops:
+    permission: "minevn.admin.drops"
+  debug:
+    permission: "minevn.admin.debug"
+    aliases:
+      - mgdebug
+  economy:
+    permission: "minevn.admin.economy"
+    aliases:
+      - eco
